@@ -1,14 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hello, world!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
 /* Chameleon user identification and data. See trychameleon.com */
 
 // IMPORTANT: Replace USER.ID_IN_DB below with your app’s actual variable names.
 
 chmln.identify(USER.ID_IN_DB, {   // REQUIRED, replace with a unique ID of each user in your database (e.g. 23443 or "590b80e5f433ea81b96c9bf6")
 
-// Example user properties; to use these replace the placeholders (e.g. USER.SIGN_UP_DATE) with your app’s actual variable names.
+})
+</head>
+<body>
+  <h1>Hello, world!</h1>
+</body>
+</html>
 
-  created: USER.SIGN_UP_DATE,     // RECOMMENDED, must be ISO8601 or unix timestamp format (e.g. "2017-07-01T03:21:10Z" or 1431432000).
-  name: USER.NAME,                // OPTIONAL, name will be parsed to first and surnames (e.g. "James Doe").
-  role: USER.ROLE,                // OPTIONAL, properties such as ‘role’, ‘admin’, ‘membership’, etc. are useful for targeting types of users.
-  logins: USER.LOGIN_COUNT,       // OPTIONAL, data about user engagement (e.g. 39).
-  project: USER.PROJECT_ID,       // OPTIONAL, any other unique data that might appear in any page URLs (e.g. 09876 or "12a34b56").
+/* Chameleon user identification and data. See trychameleon.com */
+
+// IMPORTANT: Replace USER.ID_IN_DB below with your app’s actual variable names.
+
+chmln.identify(USER.ID_IN_DB, {   // REQUIRED, replace with a unique ID of each user in your database (e.g. 23443 or "590b80e5f433ea81b96c9bf6")
+
 })
